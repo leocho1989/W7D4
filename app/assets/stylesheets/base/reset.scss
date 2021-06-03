@@ -13,13 +13,13 @@ span, article, footer, time, small {
   color: inherit;
   text-align: inherit;
   text-decoration: inherit;
-  vertical-align: baseline;
+  vertical-align: inherit;
   box-sizing: inherit;
   background: transparent;
 }
 
 ol, ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 img {
