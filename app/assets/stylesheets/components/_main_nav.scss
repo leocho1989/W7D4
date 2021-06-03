@@ -1,16 +1,33 @@
 .main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: vertical;
 
 }
 
 .left-nav > ul,
 .right-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: vertical;
 
+  margin: 10px 20px 100px 10px;
 }
 
 .left-nav {
 
   > ul {
+      display: flex;
+  justify-content: space-between;
     > li {
+  font-weight: normal;
+	padding: 0px;
+	border-radius: none;
+	transition: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: baseline; 
 
     }
   }
@@ -25,7 +42,14 @@
   > ul {
 
     > li {
-  
+  font-weight: normal;
+	padding: 0px;
+	border-radius: none;
+	transition: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: baseline;
     }
 
     > li:last-of-type {
@@ -41,4 +65,8 @@
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
 
+}
+
+#cog-btn {
+	font-size: 13px;
 }
