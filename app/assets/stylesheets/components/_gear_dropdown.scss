@@ -1,1 +1,26 @@
 // Use the gear_dropdown.png screenshot as a style guide
+.editions:hover {
+    background-color: $gray;
+}
+
+.help:hover {
+    font-decoration: underline;
+    color: $blue;
+}
+
+
+#cog-btn {
+    position: relative;
+}
+
+
+.gear-dropdown-hidden {
+    position: absolute;
+    display: none;
+
+    .editions li,
+    .help li{
+        
+    }
+}
+

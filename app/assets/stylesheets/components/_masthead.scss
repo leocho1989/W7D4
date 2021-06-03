@@ -15,6 +15,8 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;	
+
+	
 }
 
 a {
@@ -23,10 +25,24 @@ a {
 	font-family: $sans-serif;
 	font-size: 10px;
 	color: $dark-gray;
+	
 }
+
+#underline-bold {
+	font-weight: bold;
+}
+
+#underline-bold:hover {
+	text-decoration: underline;
+}
+
 	
 ul {
 	display: flex;
+}
+
+#underline:hover {
+	text-decoration: underline;
 }
 
 
@@ -43,9 +59,10 @@ ul {
 	
 	ul {
 		display: flex;
+		color: black;
 	}
 	
-	li {
+	li:nth-child(-n + 4) {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
 	}
@@ -76,3 +93,7 @@ ul {
 		color: green;
 	}
 }
+
+	#degree-stock:hover {
+		color: $gray;
+	}

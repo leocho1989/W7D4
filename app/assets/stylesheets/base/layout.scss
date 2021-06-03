@@ -14,7 +14,7 @@ body {
 }
 
 .right-nav button {
-	background-color: rgb(45, 113, 190);
+	background-color: $dark-blue;
 	border-color: none;
 	color: white;
 	font-weight: normal;
@@ -28,7 +28,7 @@ body {
 	
 }
 .left-nav button {
-	background-color: rgb(252, 249, 249);
+	background-color: $lightest-gray;
 	border-color: none;
 	color: rgb(5, 5, 5);
 	font-weight: normal;
@@ -53,19 +53,19 @@ body {
 
 .right-nav button:hover {
 	background-color: $dark-blue;
-	border-color: rgb(1, 1, 109);
+	border-color: $darkest-blue;
 }
 
 #sections-sidebar-btn  button:hover {
-	background-color: rgb(100, 100, 102);
+	background-color: $gray;
 }
 
 #search-modal-btn button:hover {
-	background-color: rgb(100, 100, 102);
+	background-color: $gray;
 }
 
 #cog-btn:hover {
-	background-color: rgb(190, 190, 190);
+	background-color: $gray;
 }
 
 
@@ -79,7 +79,7 @@ header > a:link {
 }
 
 a#comment {
-	color: blue;
+	color: $blue;
   	background-color: transparent;
   	text-decoration: underline;
 }
@@ -98,4 +98,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+a {
+	color: black;
 }
